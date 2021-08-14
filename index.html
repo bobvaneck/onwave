@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>onWave</title>
+
+    <!-- CSS Stylesheets-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Font Awesome script -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">inWaves</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Get listed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Our app will find you the perfect surf escape.</h1>
+            <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i> Download</button>
+            <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image" src="images/iphone2.png" alt="iphone-mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+  <section class="white-section" id="features">
+  <div class="container-fluid">
+
+    <div class="row">
+    <div class="col-md-4">
+      <i class="logo fas fa-hand-peace"></i>
+      <h3 class="feature-title">Easy to use</h3>
+      <p>Easy to navigate and find your perfect surf trip.</p>
+    </div>
+    
+    <div class="col-md-4">
+      <i class="logo fas fa-campground"></i>
+      <h3 class="feature-title">Wide range of camps</h3>
+      <p>We work some of the best surf camps all over the world.</p>
+    </div>
+      
+    <div class="col-md-4">
+      <i class="logo fas fa-tint"></i>
+      <h3 class="feature-title">Salty skin guaranteed</h3>
+      <p>In case the ocean is flat, take out the SUPs.</p>
+    </div>
+    </div>
+
+  </div>
+  </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              Sometimes I just require an escape from my busy office life, I like to go on a surf trip and this app has helped me find the right spot every time.
+            </h2>
+            <img class="testimonial-image"src="images/johnjohn.jpg" alt="johnjohn-profile" />
+            <em>John John, Hawaii</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">I love this app, each and every time I've managed to find such a lovely spot and had a great experience.</h2>
+            <img class="testimonial-image" src="images/Carissa.jfif" alt="carissa-profile">
+            <em>Carissa, Hawaii</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">I used to just book my surf trips by myself, but this app has helped me find more personalized stays that I have absolutely enjoyed.</h2>
+            <img class="testimonial-image" src="images/kelly.jfif" alt="kelly-profile">
+            <em>Kelly, California</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-testimonial" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-testimonial" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="colored-section" id="press">
+      <img class="press-image" src="images/tnw.png" alt="tnw-logo" />
+      <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img class="press-image" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-image" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    
+    <section class="white-section" id="pricing">
+      <h2 class="price-text">A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+    
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Kook</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+          <p>5 Matches Per Day</p>
+          <p>no discount</p>
+          <p>Soft top or basic surfboard</p>
+          <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Intermediate</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$5 / mo</h2>
+            <p>Two trips per year or more</p>
+            <p>10% trip discount</p>
+            <p>Elite board selection</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pro</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$10 / mo</h2>
+            <p>Five trips a year or more</p>
+            <p>15% trip discount</p>
+            <p>Disccount for surf buddy</p>
+            <p>Elite board selection</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Find Your Perfect Surf Escape Today.</h3>
+      <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="btn btn-light btn-lg download-button" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook"></i> 
+      <i class="social-icon fab fa-instagram"></i> 
+      <i class="social-icon fab fa-youtube"></i>
+      <p>© Copyright 2021 onWave</p>
+    </div>
+    </footer>
+  
+  </body>
+</html>
